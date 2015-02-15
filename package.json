@@ -1,5 +1,5 @@
 {
-  "name": "sublime-webdriver",
+  "name": "sublime-bundle",
   "version": "0.0.0",
   "description": "Sublime Text 2/3 bundle for WebdriverIO autocompletion",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/webdriverio/sublime-webdriver.git"
+    "url": "https://github.com/webdriverio/sublime-bundle.git"
   },
   "author": "Christian Bromann <mail@christian-bromann.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webdriverio/sublime-webdriver/issues"
+    "url": "https://github.com/webdriverio/sublime-bundle/issues"
   },
-  "homepage": "https://github.com/webdriverio/sublime-webdriver",
+  "homepage": "https://github.com/webdriverio/sublime-bundle",
   "dependencies": {
     "wddoc": "^0.2.2",
     "webdriverio": "^2.4.5"
