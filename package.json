@@ -1,0 +1,26 @@
+{
+  "name": "sublime-webdriver",
+  "version": "0.0.0",
+  "description": "Sublime Text 2/3 bundle for WebdriverIO autocompletion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-snippets": "npm run generate-protocol-snippets && npm run generate-action-snippets",
+    "generate-protocol-snippets": "./node_modules/.bin/wddoc -i ./node_modules/webdriverio/lib/protocol/**/*.js -o ./Snippets -t ./node_modules/wddoc/templates/sublime-snippet.ejs",
+    "generate-action-snippets": "./node_modules/.bin/wddoc -i ./node_modules/webdriverio/lib/commands/**/*.js -o ./Snippets -t ./node_modules/wddoc/templates/sublime-snippet.ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webdriverio/sublime-webdriver.git"
+  },
+  "author": "Christian Bromann <mail@christian-bromann.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webdriverio/sublime-webdriver/issues"
+  },
+  "homepage": "https://github.com/webdriverio/sublime-webdriver",
+  "dependencies": {
+    "wddoc": "^0.2.2",
+    "webdriverio": "^2.4.5"
+  }
+}
