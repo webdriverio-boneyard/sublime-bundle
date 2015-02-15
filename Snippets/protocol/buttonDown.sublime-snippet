@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[buttonDown(${1:button}${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>buttonDown</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Click and hold the left mouse button (at the coordinates...</description>
+</snippet>

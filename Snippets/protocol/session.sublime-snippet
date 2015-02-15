@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[session('${1:doWhat}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>session</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol bindings for all session operations. In case yo...</description>
+</snippet>

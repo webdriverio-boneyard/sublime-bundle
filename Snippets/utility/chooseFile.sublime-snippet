@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[chooseFile('${1:selector}', '${2:localPath}'${3:, function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>chooseFile</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Given a selector corresponding to an `&lt;input type=file&gt;`...</description>
+</snippet>

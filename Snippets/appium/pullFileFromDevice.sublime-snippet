@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[pullFileFromDevice('${1:path}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>pullFileFromDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Pulls a file from the device.                              </description>
+</snippet>

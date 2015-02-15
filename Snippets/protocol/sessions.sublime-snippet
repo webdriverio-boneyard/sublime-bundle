@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[sessions(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>sessions</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Returns a list of the currently active sessions. Each se...</description>
+</snippet>

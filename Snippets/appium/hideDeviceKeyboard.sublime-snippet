@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[hideDeviceKeyboard(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>hideDeviceKeyboard</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Hide the keyboard (iOS only)                               </description>
+</snippet>

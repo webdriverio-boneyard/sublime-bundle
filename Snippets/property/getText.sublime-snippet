@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getText('${1:selector}'${2:, function(error, text) {
+	$0
+\}})]]></content>
+<tabTrigger>getText</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get the text content from a DOM-element found by given s...</description>
+</snippet>

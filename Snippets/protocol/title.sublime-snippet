@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[title(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>title</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get the current page title.                                </description>
+</snippet>

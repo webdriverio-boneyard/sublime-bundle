@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[window('${1:windowHandle}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>window</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol binding to handle with tabs in the browser.       </description>
+</snippet>

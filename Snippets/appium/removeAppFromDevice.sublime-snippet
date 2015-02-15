@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[removeAppFromDevice('${1:bundleId}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>removeAppFromDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - remove an app from the device                              </description>
+</snippet>

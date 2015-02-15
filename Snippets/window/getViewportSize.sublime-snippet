@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getViewportSize(${1:function(viewportSize) {
+	$0
+\}})]]></content>
+<tabTrigger>getViewportSize</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get viewport size of the current browser window.           </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[applicationCacheStatus(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>applicationCacheStatus</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get the status of the html5 application cache.             </description>
+</snippet>

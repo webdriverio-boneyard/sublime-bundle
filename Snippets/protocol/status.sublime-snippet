@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[status(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>status</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Query the server's current status. The server should res...</description>
+</snippet>

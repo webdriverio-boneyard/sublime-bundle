@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[localStorage('${1:method}', '${2:args}'${3:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>localStorage</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol bindings for all localStorage operations.         </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[deviceKeyEvent(${1:keyValue}${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>deviceKeyEvent</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - send a key event to the device                             </description>
+</snippet>

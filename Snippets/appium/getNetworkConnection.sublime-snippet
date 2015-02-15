@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getNetworkConnection(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>getNetworkConnection</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - get informations about the current network connection (D...</description>
+</snippet>

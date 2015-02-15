@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getCurrentTabId(${1:function(error, windowHandle) {
+	$0
+\}})]]></content>
+<tabTrigger>getCurrentTabId</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Retrieve the current window handle.                        </description>
+</snippet>

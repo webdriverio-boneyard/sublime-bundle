@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[end(${1:function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>end</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - End the session and close browser.                         </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[setValue('${1:selector}', '${2:values}'${3:, function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>setValue</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Send a sequence of key strokes to an element (clears val...</description>
+</snippet>

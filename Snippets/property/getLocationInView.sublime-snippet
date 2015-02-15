@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getLocationInView('${1:selector}'${2:, function(error, locationInView) {
+	$0
+\}})]]></content>
+<tabTrigger>getLocationInView</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Determine an element’s location on the screen once it ha...</description>
+</snippet>

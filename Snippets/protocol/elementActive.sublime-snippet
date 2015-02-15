@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[elementActive(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>elementActive</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get the element on the page that currently has focus. Th...</description>
+</snippet>

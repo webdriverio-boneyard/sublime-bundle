@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[setOrientation('${1:orientation}'${2:, function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>setOrientation</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Set the current browser orientation.                       </description>
+</snippet>

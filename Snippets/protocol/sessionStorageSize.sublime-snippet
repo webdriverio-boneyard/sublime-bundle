@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[sessionStorageSize(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>sessionStorageSize</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol bindings to get the session storage size.         </description>
+</snippet>

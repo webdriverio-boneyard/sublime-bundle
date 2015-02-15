@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[implicitWait()]]></content>
+<tabTrigger>implicitWait</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - DEPRECATED!!!                                              </description>
+</snippet>

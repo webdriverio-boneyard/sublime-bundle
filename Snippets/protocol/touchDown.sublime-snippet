@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[touchDown(${1:x}, ${2:y}${3:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>touchDown</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Finger down on the screen.                                 </description>
+</snippet>

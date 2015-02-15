@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getSource(${1:function(error, source) {
+	$0
+\}})]]></content>
+<tabTrigger>getSource</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get source code of the page.                               </description>
+</snippet>

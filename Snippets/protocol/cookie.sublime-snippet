@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[cookie('${1:method}', '${2:args}'${3:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>cookie</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol binding to operate with cookies on the current ...</description>
+</snippet>

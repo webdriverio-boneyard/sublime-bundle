@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getElementSize('${1:selector}'${2:, function(error, size) {
+	$0
+\}})]]></content>
+<tabTrigger>getElementSize</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get the width and height for an DOM-element based given ...</description>
+</snippet>

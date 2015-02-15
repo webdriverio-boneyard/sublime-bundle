@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getAttribute('${1:selector}', '${2:attributeName}'${3:, function(error, attribute) {
+	$0
+\}})]]></content>
+<tabTrigger>getAttribute</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get an attribute from an DOM-element based on the select...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[sessionStorage('${1:method}', '${2:args}'${3:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>sessionStorage</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol bindings for all sessionStorage operations.       </description>
+</snippet>

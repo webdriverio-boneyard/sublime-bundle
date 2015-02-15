@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[installAppOnDevice('${1:path}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>installAppOnDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Install an app on device.                                  </description>
+</snippet>

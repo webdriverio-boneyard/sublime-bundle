@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[closeApp(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>closeApp</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - close the app                                              </description>
+</snippet>

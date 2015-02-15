@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getTagName('${1:selector}'${2:, function(error, tagName) {
+	$0
+\}})]]></content>
+<tabTrigger>getTagName</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get tag name of a DOM-element found by given selector.     </description>
+</snippet>

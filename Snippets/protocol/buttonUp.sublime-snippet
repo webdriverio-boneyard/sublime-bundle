@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[buttonUp(${1:button}${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>buttonUp</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Releases the mouse button previously held (where the mou...</description>
+</snippet>

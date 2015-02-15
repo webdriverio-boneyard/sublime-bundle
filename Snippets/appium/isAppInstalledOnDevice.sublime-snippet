@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[isAppInstalledOnDevice('${1:bundleId}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>isAppInstalledOnDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Check if an app is installed.                              </description>
+</snippet>

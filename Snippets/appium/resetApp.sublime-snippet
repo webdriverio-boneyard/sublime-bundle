@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[resetApp(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>resetApp</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - reset an app                                               </description>
+</snippet>

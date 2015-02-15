@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[frameParent(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>frameParent</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Change focus to the parent context. If the current conte...</description>
+</snippet>

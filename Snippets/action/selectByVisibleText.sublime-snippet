@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[selectByVisibleText('${1:selectElem}', '${2:text}'${3:, function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>selectByVisibleText</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Select option that display text matching the argument.     </description>
+</snippet>

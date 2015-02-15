@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[timeoutsAsyncScript(${1:ms}${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>timeoutsAsyncScript</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Set the amount of time, in milliseconds, that asynchrono...</description>
+</snippet>

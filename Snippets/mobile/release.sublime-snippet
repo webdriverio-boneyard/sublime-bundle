@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[release('${1:selector}'${2:, function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>release</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Release touch sequenz on specific element.                 </description>
+</snippet>

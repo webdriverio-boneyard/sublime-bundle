@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[waitForSelected('${1:selector}', ${2:ms}, ${3:reverse}${4:, function(error, isSelected) {
+	$0
+\}})]]></content>
+<tabTrigger>waitForSelected</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Wait for an element (selected by css selector) for the p...</description>
+</snippet>

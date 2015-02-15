@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[isSelected('${1:selector}'${2:, function(error, isSelected) {
+	$0
+\}})]]></content>
+<tabTrigger>isSelected</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Return true or false if an `&lt;option&gt;` element, or an `&lt;i...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[toggleAirplaneModeOnDevice(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>toggleAirplaneModeOnDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - toggle airplane mode on device                             </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[call(${1:function() {
+	$0
+\}})]]></content>
+<tabTrigger>call</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Call an own synchronous function within running chain. I...</description>
+</snippet>

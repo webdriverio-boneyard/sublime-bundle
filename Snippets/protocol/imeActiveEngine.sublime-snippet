@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[imeActiveEngine(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>imeActiveEngine</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get the name of the active IME engine. The name string i...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[frame('${1:JSON}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>frame</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Change focus to another frame on the page. If the frame ...</description>
+</snippet>

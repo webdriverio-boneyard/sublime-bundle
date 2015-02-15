@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[elementIdSize('${1:ID}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>elementIdSize</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Determine an element's size in pixels. The size will be ...</description>
+</snippet>

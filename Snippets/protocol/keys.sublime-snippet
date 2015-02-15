@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[keys('${1:value}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>keys</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Send a sequence of key strokes to the active element. Th...</description>
+</snippet>

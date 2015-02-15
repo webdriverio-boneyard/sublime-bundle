@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[screenshot(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>screenshot</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Take a screenshot of the current viewport. To get the sc...</description>
+</snippet>

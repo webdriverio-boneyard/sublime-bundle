@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getHTML('${1:selector}', ${2:includeSelectorTag}${3:, function(error, html) {
+	$0
+\}})]]></content>
+<tabTrigger>getHTML</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get source code of specified DOM element by selector.      </description>
+</snippet>

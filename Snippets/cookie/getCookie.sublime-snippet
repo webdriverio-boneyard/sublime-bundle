@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getCookie('${1:name}'${2:, function(error, cookies) {
+	$0
+\}})]]></content>
+<tabTrigger>getCookie</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Retrieve a [cookie](https://code.google.com/p/selenium/w...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[alertAccept(${1:function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>alertAccept</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Accepts the currently displayed alert dialog. Usually, t...</description>
+</snippet>

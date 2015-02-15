@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[executeAsync(${1:script}, ${2:arguments}${3:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>executeAsync</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Inject a snippet of JavaScript into the page for executi...</description>
+</snippet>

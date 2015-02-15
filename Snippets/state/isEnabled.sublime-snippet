@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[isEnabled('${1:selector}'${2:, function(error, isEnabled) {
+	$0
+\}})]]></content>
+<tabTrigger>isEnabled</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Return true or false if the selected DOM-element found b...</description>
+</snippet>

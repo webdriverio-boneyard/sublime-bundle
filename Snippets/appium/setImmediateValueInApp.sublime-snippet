@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[setImmediateValueInApp(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>setImmediateValueInApp</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - set immediate value in app                                 </description>
+</snippet>

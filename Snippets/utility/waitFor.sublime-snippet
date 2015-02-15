@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[waitFor('${1:selector}', ${2:ms}${3:, function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>waitFor</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Wait for an object in the DOM (selected by given selecto...</description>
+</snippet>

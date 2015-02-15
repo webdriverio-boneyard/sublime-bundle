@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[isVisible('${1:selector}'${2:, function(error, isVisible) {
+	$0
+\}})]]></content>
+<tabTrigger>isVisible</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Return true or false if the selected DOM-element found b...</description>
+</snippet>

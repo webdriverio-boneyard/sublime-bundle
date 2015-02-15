@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[shake(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>shake</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Simulate the device shaking.                               </description>
+</snippet>

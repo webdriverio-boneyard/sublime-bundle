@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[log('${1:type}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>log</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Get the log for a given log type. Log buffer is reset af...</description>
+</snippet>

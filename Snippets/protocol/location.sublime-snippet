@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[location(${1:location}${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>location</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol bindings for all geolocation operations.          </description>
+</snippet>

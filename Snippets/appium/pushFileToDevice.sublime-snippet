@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[pushFileToDevice('${1:path}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>pushFileToDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Push a file to the device.                                 </description>
+</snippet>

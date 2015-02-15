@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[performMultiAction(${1:touchAttr}${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>performMultiAction</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Perform multi touch action                                 </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[elements('${1:selector}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>elements</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Search for multiple elements on the page, starting from ...</description>
+</snippet>

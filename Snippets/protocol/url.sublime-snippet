@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[url('${1:url}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>url</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol binding to load or get the URL of the browser.    </description>
+</snippet>

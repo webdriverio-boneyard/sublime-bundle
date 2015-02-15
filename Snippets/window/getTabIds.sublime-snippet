@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getTabIds(${1:function(error, windowHandles) {
+	$0
+\}})]]></content>
+<tabTrigger>getTabIds</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Retrieve a list of all window handles available in the s...</description>
+</snippet>

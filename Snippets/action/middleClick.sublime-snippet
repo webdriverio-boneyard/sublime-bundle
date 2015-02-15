@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[middleClick('${1:selector}'${2:, function(error) {
+	$0
+\}})]]></content>
+<tabTrigger>middleClick</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Apply middle click on an element. If selector is not pro...</description>
+</snippet>

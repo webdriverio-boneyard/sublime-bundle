@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[windowHandlePosition('${1:windowHandle}', ${2:position}${3:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>windowHandlePosition</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Protocol bindings to receive or change the position of t...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[toggleLocationServicesOnDevice(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>toggleLocationServicesOnDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Toggle location services on device.                        </description>
+</snippet>

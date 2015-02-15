@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[touchLongClick('${1:id}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>touchLongClick</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Long press on the touch screen using finger motion event...</description>
+</snippet>

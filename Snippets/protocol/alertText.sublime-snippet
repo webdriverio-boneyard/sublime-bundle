@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[alertText('${1:text}'${2:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>alertText</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Gets the text of the currently displayed JavaScript aler...</description>
+</snippet>

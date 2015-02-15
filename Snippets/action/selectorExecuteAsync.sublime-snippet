@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[selectorExecuteAsync('${1:selectors}', ${2:script}, ${3:argument1,...,argumentN}${4:, function(error, callbackValue) {
+	$0
+\}})]]></content>
+<tabTrigger>selectorExecuteAsync</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Works just like execute, only you can use Selenium selec...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[getCurrentDeviceActivity(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>getCurrentDeviceActivity</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - get current device activity (Android only)                 </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[moveTo('${1:element}', ${2:xoffset}, ${3:yoffset}${4:, function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>moveTo</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Move the mouse by an offset of the specificed element. I...</description>
+</snippet>

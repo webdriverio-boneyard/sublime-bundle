@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[toggleWiFiOnDevice(${1:function(error, response) {
+	$0
+\}})]]></content>
+<tabTrigger>toggleWiFiOnDevice</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - Toggle WiFi on device.                                     </description>
+</snippet>

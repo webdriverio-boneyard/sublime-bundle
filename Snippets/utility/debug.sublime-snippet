@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[debug()]]></content>
+<tabTrigger>debug</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - This command helps you to debug your integration tests. ...</description>
+</snippet>
