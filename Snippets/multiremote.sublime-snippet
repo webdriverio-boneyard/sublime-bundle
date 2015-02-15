@@ -1,0 +1,31 @@
+<snippet>
+<content><![CDATA[multiremote({
+	'${1:browserA}': {
+		logLevel: '${2:silent}',
+		host: '${3:0.0.0.0}',
+		port: ${4:4444},
+		waitforTimeout: ${5:500},
+		coloredLogs: ${6:true},
+		desiredCapabilities: {
+			browserName: '${7:browserName}'${8:,
+			platform: '${9:platform}'}${10:,
+			version: '${11:version}'}
+		}
+	},
+	'${12:browserB}': {
+		logLevel: '${13:silent}',
+		host: '${14:0.0.0.0}',
+		port: ${15:4444},
+		waitforTimeout: ${16:500},
+		coloredLogs: ${17:true},
+		desiredCapabilities: {
+			browserName: '${18:browserName}'${19:,
+			platform: '${20:platform}'}${21:,
+			version: '${22:version}'}
+		}
+	}
+})]]></content>
+<tabTrigger>multiremote</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - initialize a multiremote session and set desired capabil...</description>
+</snippet>
