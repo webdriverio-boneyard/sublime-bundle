@@ -1,6 +1,6 @@
 {
   "name": "sublime-bundle",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sublime Text 2/3 bundle for WebdriverIO autocompletion",
   "main": "index.js",
   "scripts": {
