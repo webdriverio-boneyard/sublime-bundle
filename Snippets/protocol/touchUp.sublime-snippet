@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[touchUp(${1:x}, ${2:y}${3:, function(error, response) {
+<content><![CDATA[touchUp(${1:x}, ${2:y})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>touchUp</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Finger up on the screen.                                   </description>

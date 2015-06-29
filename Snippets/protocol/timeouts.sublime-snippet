@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[timeouts('${1:type}', ${2:ms}${3:, function(error, response) {
+<content><![CDATA[timeouts('${1:type}', ${2:ms})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>timeouts</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Configure the amount of time that a particular type of o...</description>

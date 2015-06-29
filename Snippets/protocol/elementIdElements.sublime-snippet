@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdElements('${1:ID}', '${2:selector}'${3:, function(error, response) {
+<content><![CDATA[elementIdElements('${1:ID}', '${2:selector}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdElements</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Search for multiple elements on the page, starting from ...</description>

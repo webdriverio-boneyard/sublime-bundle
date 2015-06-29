@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[localStorageSize(${1:function(error, response) {
+<content><![CDATA[localStorageSize()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>localStorageSize</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - protocol bindings to get local_storage size                </description>

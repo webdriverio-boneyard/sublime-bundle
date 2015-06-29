@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[close('${1:windowHandle}'${2:, function(error) {
+<content><![CDATA[close('${1:windowHandle}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>close</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Close current window (and focus on an other window).       </description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[openNotifications(${1:function(error, response) {
+<content><![CDATA[openNotifications()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>openNotifications</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Open Notifications                                         </description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[dragAndDrop('${1:sourceElem}', '${2:destinationElem}'${3:, function(error) {
+<content><![CDATA[dragAndDrop('${1:sourceElem}', '${2:destinationElem}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>dragAndDrop</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Drag an item to a destination element.                     </description>

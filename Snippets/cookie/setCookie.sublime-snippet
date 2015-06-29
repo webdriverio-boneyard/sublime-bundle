@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[setCookie(${1:cookie}${2:, function(error) {
+<content><![CDATA[setCookie(${1:cookie})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>setCookie</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Sets a [cookie](https://code.google.com/p/selenium/wiki/...</description>

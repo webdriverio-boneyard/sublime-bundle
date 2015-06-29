@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[rotate(${1:function(error, response) {
+<content><![CDATA[rotate()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>rotate</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Rotate device.                                             </description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdLocationInView('${1:ID}'${2:, function(error, response) {
+<content><![CDATA[elementIdLocationInView('${1:ID}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdLocationInView</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Determine an element's location on the screen once it ha...</description>

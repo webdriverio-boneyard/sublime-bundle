@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdAttribute('${1:ID}', '${2:attributeName}'${3:, function(error, response) {
+<content><![CDATA[elementIdAttribute('${1:ID}', '${2:attributeName}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdAttribute</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get the value of an element's attribute.                   </description>

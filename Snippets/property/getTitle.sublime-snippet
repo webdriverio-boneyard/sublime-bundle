@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[getTitle(${1:function(error, title) {
+<content><![CDATA[getTitle()${1:.then(function(title) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>getTitle</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get the title of current opened website.                   </description>

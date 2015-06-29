@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[waitUntil(${1:condition}, ${2:ms})${3:.then(function(result) {
+	$0
+\})}]]></content>
+<tabTrigger>waitUntil</tabTrigger>
+<scope>source.js</scope>
+<description>WebdriverIO - This wait command is your universal weapon if you want t...</description>
+</snippet>

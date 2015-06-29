@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[isExisting('${1:selector}'${2:, function(error, isExisting) {
+<content><![CDATA[isExisting('${1:selector}')${2:.then(function(isExisting) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>isExisting</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Returns true if at least one element is existing by give...</description>

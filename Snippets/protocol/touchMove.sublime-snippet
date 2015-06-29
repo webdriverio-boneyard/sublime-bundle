@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[touchMove(${1:x}, ${2:y}${3:, function(error, response) {
+<content><![CDATA[touchMove(${1:x}, ${2:y})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>touchMove</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Finger move on the screen.                                 </description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[endAll(${1:function(error) {
+<content><![CDATA[endAll()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>endAll</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - End all selenium server sessions at once.                  </description>

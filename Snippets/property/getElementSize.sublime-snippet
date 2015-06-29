@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[getElementSize('${1:selector}'${2:, function(error, size) {
+<content><![CDATA[getElementSize('${1:selector}')${2:.then(function(elementSize) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>getElementSize</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get the width and height for an DOM-element based given ...</description>

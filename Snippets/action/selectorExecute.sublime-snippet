@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[selectorExecute('${1:selectors}', ${2:script}, ${3:argument1,...,argumentN}${4:, function(error, returnValue) {
+<content><![CDATA[selectorExecute('${1:selectors}', ${2:script}, ${3:argument1,...,argumentN})${4:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>selectorExecute</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Works just like execute, only you can use selectors to p...</description>

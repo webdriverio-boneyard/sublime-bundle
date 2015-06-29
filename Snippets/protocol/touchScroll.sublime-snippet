@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[touchScroll('${1:id}', ${2:xoffset}, ${3:yoffset}${4:, function(error, response) {
+<content><![CDATA[touchScroll('${1:id}', ${2:xoffset}, ${3:yoffset})${4:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>touchScroll</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Scroll on the touch screen using finger based motion eve...</description>

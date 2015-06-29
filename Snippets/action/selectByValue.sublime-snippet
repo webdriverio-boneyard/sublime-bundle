@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[selectByValue('${1:selectElem}', '${2:value}'${3:, function(error) {
+<content><![CDATA[selectByValue('${1:selectElem}', '${2:value}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>selectByValue</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Select option with a specific value.                       </description>

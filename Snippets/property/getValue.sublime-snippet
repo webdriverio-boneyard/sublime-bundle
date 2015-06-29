@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[getValue('${1:selector}'${2:, function(error, value) {
+<content><![CDATA[getValue('${1:selector}')${2:.then(function(value) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>getValue</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get the value of a `&lt;textarea&gt;` or text `&lt;input&gt;` found ...</description>

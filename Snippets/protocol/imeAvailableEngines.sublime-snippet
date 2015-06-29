@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[imeAvailableEngines(${1:function(error, response) {
+<content><![CDATA[imeAvailableEngines()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>imeAvailableEngines</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - List all available engines on the machine. To use an eng...</description>

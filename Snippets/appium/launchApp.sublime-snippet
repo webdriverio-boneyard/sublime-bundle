@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[launchApp(${1:function(error, response) {
+<content><![CDATA[launchApp()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>launchApp</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - launch the app                                             </description>

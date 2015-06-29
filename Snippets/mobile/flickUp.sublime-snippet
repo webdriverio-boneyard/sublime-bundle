@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[flickUp('${1:selector}', ${2:duration}${3:, function(error) {
+<content><![CDATA[flickUp('${1:selector}', ${2:duration})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>flickUp</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Perform a drag up on an element.                           </description>

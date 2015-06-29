@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[backgroundApp(${1:seconds}${2:, function(error, response) {
+<content><![CDATA[backgroundApp(${1:seconds})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>backgroundApp</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - send the currently active app to the background.           </description>

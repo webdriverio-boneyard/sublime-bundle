@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[touchFlick('${1:ID}', ${2:xoffset}, ${3:yoffset}, ${4:speed}${5:, function(error, response) {
+<content><![CDATA[touchFlick('${1:ID}', ${2:xoffset}, ${3:yoffset}, ${4:speed})${5:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>touchFlick</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Flick on the touch screen using finger motion events. Th...</description>

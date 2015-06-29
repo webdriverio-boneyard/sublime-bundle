@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[click('${1:selector}'${2:, function(error) {
+<content><![CDATA[click('${1:selector}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>click</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Click on an element based on given selector.               </description>

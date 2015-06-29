@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[doDoubleClick(${1:function(error, response) {
+<content><![CDATA[doDoubleClick()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>doDoubleClick</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Double-clicks at the current mouse coordinates (set by m...</description>

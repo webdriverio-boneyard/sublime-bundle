@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdText('${1:ID}'${2:, function(error, response) {
+<content><![CDATA[elementIdText('${1:ID}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdText</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Returns the visible text for the element.                  </description>

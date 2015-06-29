@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[orientation('${1:deviceOrientation}'${2:, function(error, response) {
+<content><![CDATA[orientation('${1:deviceOrientation}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>orientation</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Protocol bindings for all mobile orientation operations....</description>

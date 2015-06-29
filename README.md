@@ -39,3 +39,4 @@ that is responsible for the structure of these snippet files.
 
 ## Release History
 * 2015-02-16   v0.1.0   First release: provides command autocompletion
+* 2015-06-29   v0.2.0   Updated Snippets due to v3 release

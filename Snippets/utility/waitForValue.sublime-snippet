@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[waitForValue('${1:selector}', ${2:ms}, ${3:reverse}${4:, function(error, hasValue) {
+<content><![CDATA[waitForValue('${1:selector}', ${2:ms}, ${3:reverse})${4:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>waitForValue</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Wait for an element (selected by css selector) for the p...</description>

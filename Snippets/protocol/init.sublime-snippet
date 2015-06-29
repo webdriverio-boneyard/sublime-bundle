@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[init(${1:capabilities}${2:, function(error, response) {
+<content><![CDATA[init(${1:capabilities})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>init</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Create a new session. The server should attempt to creat...</description>

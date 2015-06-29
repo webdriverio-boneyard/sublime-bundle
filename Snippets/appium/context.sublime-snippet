@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[context(${1:function(error, response) {
+<content><![CDATA[context()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>context</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - list all available contexts                                </description>

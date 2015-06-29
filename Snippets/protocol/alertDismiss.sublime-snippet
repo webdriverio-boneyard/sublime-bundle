@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[alertDismiss(${1:function(error) {
+<content><![CDATA[alertDismiss()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>alertDismiss</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Dismisses the currently displayed alert dialog. For conf...</description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[element('${1:selector}'${2:, function(error, response) {
+<content><![CDATA[element('${1:selector}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>element</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Search for an element on the page, starting from the doc...</description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[flickDown('${1:selector}', ${2:duration}${3:, function(error) {
+<content><![CDATA[flickDown('${1:selector}', ${2:duration})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>flickDown</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Perform a flick down on an element.                        </description>

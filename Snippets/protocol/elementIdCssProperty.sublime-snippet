@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdCssProperty('${1:ID}', '${2:cssPropertyName}'${3:, function(error, response) {
+<content><![CDATA[elementIdCssProperty('${1:ID}', '${2:cssPropertyName}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdCssProperty</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Query the value of an element's computed CSS property. T...</description>

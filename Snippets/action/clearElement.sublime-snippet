@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[clearElement('${1:selector}'${2:, function(error) {
+<content><![CDATA[clearElement('${1:selector}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>clearElement</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Clear a `&lt;textarea&gt;` or text `&lt;input&gt;` element’s value.    </description>

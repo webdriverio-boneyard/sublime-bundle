@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[addValue('${1:selector}', '${2:values}'${3:, function(error) {
+<content><![CDATA[addValue('${1:selector}', '${2:values}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>addValue</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Add a value to an object found by given selector. You ca...</description>

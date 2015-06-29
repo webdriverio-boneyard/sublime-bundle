@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[windowHandleSize('${1:windowHandle}', ${2:dimension}${3:, function(error, response) {
+<content><![CDATA[windowHandleSize('${1:windowHandle}', ${2:dimension})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>windowHandleSize</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Protocol binding to get or change the size of the browse...</description>

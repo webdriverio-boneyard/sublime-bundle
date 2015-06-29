@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[newWindow('${1:url}', '${2:windowName}', '${3:windowFeatures}'${4:, function(error) {
+<content><![CDATA[newWindow('${1:url}', '${2:windowName}', '${3:windowFeatures}')${4:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>newWindow</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Open new window in browser. This command is the equivale...</description>

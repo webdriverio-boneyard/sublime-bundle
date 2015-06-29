@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdSelected('${1:ID}'${2:, function(error, response) {
+<content><![CDATA[elementIdSelected('${1:ID}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdSelected</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Determine if an OPTION element, or an INPUT element of t...</description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[getAppStrings(${1:function(error, response) {
+<content><![CDATA[getAppStrings()${1:.then(function(appStrings) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>getAppStrings</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - get the app's strings                                      </description>

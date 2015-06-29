@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[imeDeactivated(${1:function(error, response) {
+<content><![CDATA[imeDeactivated()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>imeDeactivated</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - De-activates the currently-active IME engine.              </description>

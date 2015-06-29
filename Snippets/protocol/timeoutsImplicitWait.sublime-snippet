@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[timeoutsImplicitWait(${1:ms}${2:, function(error, response) {
+<content><![CDATA[timeoutsImplicitWait(${1:ms})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>timeoutsImplicitWait</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Set the amount of time the driver should wait when searc...</description>

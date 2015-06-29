@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[waitForSelected('${1:selector}', ${2:ms}, ${3:reverse}${4:, function(error, isSelected) {
+<content><![CDATA[waitForSelected('${1:selector}', ${2:ms}, ${3:reverse})${4:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>waitForSelected</tabTrigger>
 <scope>source.js</scope>
-<description>WebdriverIO - Wait for an element (selected by css selector) for the p...</description>
+<description>WebdriverIO - Wait for an option or radio/checkbox element (selected b...</description>
 </snippet>

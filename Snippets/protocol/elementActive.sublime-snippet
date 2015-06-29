@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementActive(${1:function(error, response) {
+<content><![CDATA[elementActive()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementActive</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get the element on the page that currently has focus. Th...</description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdClick('${1:ID}'${2:, function(error, response) {
+<content><![CDATA[elementIdClick('${1:ID}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdClick</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Click on an element.                                       </description>

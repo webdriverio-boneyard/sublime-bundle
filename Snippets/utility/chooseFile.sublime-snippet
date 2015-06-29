@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[chooseFile('${1:selector}', '${2:localPath}'${3:, function(error) {
+<content><![CDATA[chooseFile('${1:selector}', '${2:localPath}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>chooseFile</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Given a selector corresponding to an `&lt;input type=file&gt;`...</description>

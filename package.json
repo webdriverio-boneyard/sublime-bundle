@@ -1,6 +1,6 @@
 {
   "name": "sublime-bundle",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Sublime Text 2/3 bundle for WebdriverIO autocompletion",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/webdriverio/sublime-bundle",
   "dependencies": {
-    "wddoc": "^0.2.2",
-    "webdriverio": "^2.4.5"
+    "wddoc": "^0.3.0",
+    "webdriverio": "^3.0.0"
   }
 }

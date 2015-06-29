@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[toggleDataOnDevice(${1:function(error, response) {
+<content><![CDATA[toggleDataOnDevice()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>toggleDataOnDevice</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Toggle data on device.                                     </description>

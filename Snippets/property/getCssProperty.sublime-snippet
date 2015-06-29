@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[getCssProperty('${1:selector}', '${2:cssProperty}'${3:, function(error, property) {
+<content><![CDATA[getCssProperty('${1:selector}', '${2:cssProperty}')${3:.then(function(cssProperty) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>getCssProperty</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get a css property from a DOM-element selected by given ...</description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdValue('${1:ID}', '${2:value}'${3:, function(error, response) {
+<content><![CDATA[elementIdValue('${1:ID}', '${2:value}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdValue</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Send a sequence of key strokes to an element.              </description>

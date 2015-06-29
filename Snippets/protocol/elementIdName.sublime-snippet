@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdName('${1:ID}'${2:, function(error, response) {
+<content><![CDATA[elementIdName('${1:ID}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdName</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Query for an element's tag name.                           </description>

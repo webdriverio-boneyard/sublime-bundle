@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[flickLeft('${1:selector}', ${2:duration}${3:, function(error) {
+<content><![CDATA[flickLeft('${1:selector}', ${2:duration})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>flickLeft</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Perform a drag left on an element.                         </description>

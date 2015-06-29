@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[lock(${1:seconds}${2:, function(error, response) {
+<content><![CDATA[lock(${1:seconds})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>lock</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - lock screen                                                </description>

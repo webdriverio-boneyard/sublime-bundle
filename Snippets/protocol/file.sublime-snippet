@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[file(${1:data}${2:, function(error, response) {
+<content><![CDATA[file(${1:data})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>file</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Uploads a base64 data object.                              </description>

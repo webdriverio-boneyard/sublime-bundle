@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[deleteCookie('${1:name}'${2:, function(error) {
+<content><![CDATA[deleteCookie('${1:name}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>deleteCookie</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Delete cookies visible to the current page. By providing...</description>

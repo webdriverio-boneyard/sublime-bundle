@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[source(${1:function(error, response) {
+<content><![CDATA[source()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>source</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get the current page source.                               </description>

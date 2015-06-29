@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[elementIdLocation('${1:ID}'${2:, function(error, response) {
+<content><![CDATA[elementIdLocation('${1:ID}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>elementIdLocation</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Determine an element's location on the page. The point (...</description>

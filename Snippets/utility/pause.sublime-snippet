@@ -1,5 +1,7 @@
 <snippet>
-<content><![CDATA[pause(${1:milliseconds})]]></content>
+<content><![CDATA[pause(${1:milliseconds})${2:.then(function(result) {
+	$0
+\})}]]></content>
 <tabTrigger>pause</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - pauses queue execution for a specific amount of time       </description>

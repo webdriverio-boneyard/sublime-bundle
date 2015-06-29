@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[touchLongClick('${1:id}'${2:, function(error, response) {
+<content><![CDATA[touchLongClick('${1:id}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>touchLongClick</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Long press on the touch screen using finger motion event...</description>

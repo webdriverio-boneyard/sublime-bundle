@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[setGeoLocation(${1:location}${2:, function(error) {
+<content><![CDATA[setGeoLocation(${1:location})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>setGeoLocation</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - set the current geo location                               </description>

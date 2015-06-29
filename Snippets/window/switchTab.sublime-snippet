@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[switchTab('${1:windowHandle}'${2:, function(error) {
+<content><![CDATA[switchTab('${1:windowHandle}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>switchTab</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Switch focus to a particular tab / window handle.          </description>

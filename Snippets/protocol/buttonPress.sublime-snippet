@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[buttonPress(${1:button}${2:, function(error, response) {
+<content><![CDATA[buttonPress(${1:button})${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>buttonPress</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Click any mouse button (at the coordinates set by the la...</description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[flick('${1:selector}', ${2:xoffset}, ${3:yoffset}, ${4:speed}${5:, function(error) {
+<content><![CDATA[flick('${1:selector}', ${2:xoffset}, ${3:yoffset}, ${4:speed})${5:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>flick</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Perform a flick on the screen or an element. If you want...</description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[setNetworkConnection(${1:function(error, response) {
+<content><![CDATA[setNetworkConnection()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>setNetworkConnection</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Set network connection.                                    </description>

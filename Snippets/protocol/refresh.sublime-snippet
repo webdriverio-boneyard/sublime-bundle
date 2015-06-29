@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[refresh(${1:function(error, response) {
+<content><![CDATA[refresh()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>refresh</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Refresh the current page.                                  </description>

@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[imeActivated(${1:function(error, response) {
+<content><![CDATA[imeActivated()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>imeActivated</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Indicates whether IME input is active at the moment (not...</description>

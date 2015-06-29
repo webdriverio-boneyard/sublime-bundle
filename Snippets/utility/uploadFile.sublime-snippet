@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[uploadFile('${1:localPath}'${2:, function(error) {
+<content><![CDATA[uploadFile('${1:localPath}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>uploadFile</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Uploads a file to to the selenium server.                  </description>

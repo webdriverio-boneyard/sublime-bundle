@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[imeActivate('${1:engine}'${2:, function(error, response) {
+<content><![CDATA[imeActivate('${1:engine}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>imeActivate</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Make an engines that is available (appears on the list r...</description>

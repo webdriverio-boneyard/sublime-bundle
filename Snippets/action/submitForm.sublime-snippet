@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[submitForm('${1:selector}'${2:, function(error) {
+<content><![CDATA[submitForm('${1:selector}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>submitForm</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Submits a form found by given selector. The submit comma...</description>

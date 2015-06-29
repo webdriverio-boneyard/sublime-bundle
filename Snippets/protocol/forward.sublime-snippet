@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[forward(${1:function(error, response) {
+<content><![CDATA[forward()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>forward</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Navigate forwards in the browser history, if possible.     </description>

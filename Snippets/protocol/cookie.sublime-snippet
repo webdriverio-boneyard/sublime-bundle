@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[cookie('${1:method}', '${2:args}'${3:, function(error, response) {
+<content><![CDATA[cookie('${1:method}', '${2:args}')${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>cookie</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Protocol binding to operate with cookies on the current ...</description>

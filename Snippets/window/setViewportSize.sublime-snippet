@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[setViewportSize(${1:size}, ${2:type}${3:, function(error) {
+<content><![CDATA[setViewportSize(${1:size}, ${2:type})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>setViewportSize</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - This command changes the viewport size of the browser. W...</description>

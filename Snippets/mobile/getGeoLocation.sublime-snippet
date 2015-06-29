@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[getGeoLocation(${1:function(error, geolocation) {
+<content><![CDATA[getGeoLocation()${1:.then(function(geoLocation) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>getGeoLocation</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get the current geolocation.                               </description>

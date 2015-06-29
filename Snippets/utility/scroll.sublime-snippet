@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[scroll('${1:selector}', ${2:xoffset}, ${3:yoffset}${4:, function(error) {
+<content><![CDATA[scroll('${1:selector}', ${2:xoffset}, ${3:yoffset})${4:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>scroll</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Scroll to a specific element. You can also append/pass t...</description>

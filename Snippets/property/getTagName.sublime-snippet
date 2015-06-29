@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[getTagName('${1:selector}'${2:, function(error, tagName) {
+<content><![CDATA[getTagName('${1:selector}')${2:.then(function(tagName) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>getTagName</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get tag name of a DOM-element found by given selector.     </description>

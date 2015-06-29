@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[touch('${1:selector}'${2:, function(error) {
+<content><![CDATA[touch('${1:selector}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>touch</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Put finger on an element (only in mobile context).         </description>

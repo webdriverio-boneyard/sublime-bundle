@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[back(${1:function(error, response) {
+<content><![CDATA[back()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>back</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Navigate backwards in the browser history, if possible.    </description>

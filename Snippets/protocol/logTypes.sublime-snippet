@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[logTypes(${1:function(error, response) {
+<content><![CDATA[logTypes()${1:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>logTypes</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Get available log types.                                   </description>

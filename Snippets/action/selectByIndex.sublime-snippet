@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[selectByIndex('${1:selectElem}', ${2:index}${3:, function(error) {
+<content><![CDATA[selectByIndex('${1:selectElem}', ${2:index})${3:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>selectByIndex</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Select option with a specific index.                       </description>

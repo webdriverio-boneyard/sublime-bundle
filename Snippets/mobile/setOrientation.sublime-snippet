@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[setOrientation('${1:orientation}'${2:, function(error) {
+<content><![CDATA[setOrientation('${1:orientation}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>setOrientation</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Set the current browser orientation.                       </description>

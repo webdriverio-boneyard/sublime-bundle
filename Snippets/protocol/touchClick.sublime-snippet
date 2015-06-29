@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[touchClick('${1:ID}'${2:, function(error, response) {
+<content><![CDATA[touchClick('${1:ID}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>touchClick</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Single tap on the touch enabled device.                    </description>

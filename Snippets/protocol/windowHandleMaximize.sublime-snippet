@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[windowHandleMaximize('${1:windowHandle}'${2:, function(error, response) {
+<content><![CDATA[windowHandleMaximize('${1:windowHandle}')${2:.then(function(result) {
 	$0
-\}})]]></content>
+\})}]]></content>
 <tabTrigger>windowHandleMaximize</tabTrigger>
 <scope>source.js</scope>
 <description>WebdriverIO - Maximize the specified window if not already maximized. ...</description>
