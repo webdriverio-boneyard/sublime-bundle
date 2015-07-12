@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[remote({
 	logLevel: '${1:silent}',
-	host: '${2:0.0.0.0}',
+	host: '${2:127.0.0.1}',
 	port: ${3:4444},
 	waitforTimeout: ${4:500},
 	coloredLogs: ${5:true},
