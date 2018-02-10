@@ -24,7 +24,7 @@ Or when using different commands:
 ![](https://webdriverio.github.io/sublime-bundle/images/commands.gif)
 
 __Note:__ WebdriverIO has a lot (I mean really a looot) commands. So it might be that this plugin
-blows up your autocompletion window which can be anyoing if you have other autocompletion plugins.
+blows up your autocompletion window which can be annoying if you have other autocompletion plugins.
 
 There will be more features comming. Feature requests or even pull requests are much appriciated.
 
